@@ -6,7 +6,6 @@ public final class PlayerLeaveGameSaveServer extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new EventInteractor(), this);
         getLogger().info("插件启动中。。。。。");
         getLogger().info("作者: qfys521");
