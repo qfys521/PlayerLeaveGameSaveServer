@@ -1,0 +1,4 @@
+name: PlayerLeaveGameSaveServer
+version: '${version}'
+main: cn.qfys521.playerleavegamesaveserver.PlayerLeaveGameSaveServer
+api-version: 1.16
